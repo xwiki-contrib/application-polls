@@ -1282,7 +1282,7 @@ ol.drag-n-drop {
   #foreach($option in $options)
     &lt;tr class="poll-option-weighted #if($velocityCount % 2 == 1)odd #else even #end"&gt;
       &lt;td&gt;$option.text&lt;/td&gt;
-      &lt;td&gt;&lt;span class="poll-option-weight"&gt;
+      &lt;td&gt;&lt;span class="poll-option-weighted"&gt;
         &lt;select name="${pollVoteClass}_optionID_${option.id}"&gt;
         #foreach($i in [0..100])
           &lt;option value="$i" #if("${myVotes.get($option.id)}" == "${i}") selected="selected" #end&gt;$i&lt;/option&gt;
