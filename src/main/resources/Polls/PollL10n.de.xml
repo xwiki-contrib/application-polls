@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <!--
  * See the NOTICE file distributed with this work for additional
@@ -57,8 +57,8 @@ polls.create.title=Neue Umfrage starten
 ## Error messages
 polls.form.error.missingTitle=Der Titel ist ein Pflichtfeld.
 polls.form.error.missingOptions=Bitte mindestens zwei Optionen angeben.
-polls.form.error.missingQuestion=Die Frage ist ein Pflichtfeld
-polls.form.error.missingVoteType=Der Umfragetyp ist ein Pflichtfeld
+polls.form.error.missingQuestion=Die Frage ist ein Pflichtfeld.
+polls.form.error.missingVoteType=Der Umfragetyp ist ein Pflichtfeld.
 polls.form.error.missingRatingLevel=Die maximale Bewertungs-Stufe ist ein Pflichtfeld für Bewertungs-Umfragen und muss größer 0 und höchstens {0} sein.
 polls.form.error.missingOpenDate=Das Startdatum der Umfrage ist ein Pflichtfeld und muss das Format {0} haben.
 polls.form.error.missingCloseDate=Das Enddatum der Umfrage ist ein Pflichtfeld und muss das Format {0} haben.
@@ -127,7 +127,7 @@ polls.vote.error.rating.ratingOutOfRange=Bewertung außerhalb des Bereichs für 
 polls.vote.error.ranking.unknownElement=Ungültige Anordnung: Unbekanntes Element {0}.
 polls.vote.error.ranking.duplicateElement=Ungültige Anordnung: Doppeltes Element {0}.
 ## Results
-polls.vote.results.title.before=
+### Missing: polls.vote.results.title.before=
 polls.vote.results.title.during=Zwischenergebnisse
 polls.vote.results.title.after=Ergebnisse
 polls.vote.results.participants={0} Teilnehmer{0,choice,0#s|1#|1&lt;s}
@@ -158,5 +158,6 @@ Polls.PollClass_question=Frage
 Polls.PollClass_optionsPerVoter=Maximale Anzahl an Optionen pro Teilnehmer
 Polls.PollClass_type=Auswahltyp
 Polls.PollClass_from=von
-Polls.PollClass_to=bis</content>
+Polls.PollClass_to=bis
+</content>
 </xwikidoc>
