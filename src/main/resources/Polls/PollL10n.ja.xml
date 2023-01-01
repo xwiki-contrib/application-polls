@@ -60,16 +60,16 @@ polls.index._actions=アクション
 polls.create.title=新しいアンケートを開始
 ## Error messages
 polls.form.error.missingTitle=タイトルのフィールドは必須です。
-### Missing: polls.form.error.missingOptions=Please provide at least two options.
-### Missing: polls.form.error.missingQuestion=The poll question is mandatory.
-### Missing: polls.form.error.missingVoteType=The vote type is mandatory.
+polls.form.error.missingOptions=2つ以上の選択肢を指定してください。
+polls.form.error.missingQuestion=アンケートの設問は必須です。
+polls.form.error.missingVoteType=投票の種類は必須です。
 ### Missing: polls.form.error.missingRatingLevel=The maximum rating level is mandatory for rating polls, and must be greater than 0 and at most {0}.
-### Missing: polls.form.error.missingOpenDate=The poll opening date is mandatory and must have the format {0}.
-### Missing: polls.form.error.missingCloseDate=The poll closing date is mandatory and must have the format {0}.
-### Missing: polls.form.error.wrongDateOrder=The poll closing date must be after the opening date.
+polls.form.error.missingOpenDate=投票の開始日は必須です。{0}のフォーマットで設定してください。
+polls.form.error.missingCloseDate=投票の終了日は必須です。{0}のフォーマットで設定してください。
+polls.form.error.wrongDateOrder=投票の終了日は開始日よりも後に設定してください。
 ## Section titles
-### Missing: polls.form.section.general=What are you polling?
-polls.form.section.options=投票
+polls.form.section.general=アンケートの設定
+polls.form.section.options=選択肢
 polls.form.section.voteType=投票の種類
 ### Missing: polls.form.section.timeline=Timeline
 polls.form.section.votes=投票
@@ -83,7 +83,7 @@ polls.form.label.optionCount.separator=あるいは
 ### Missing: polls.form.label.optionCount.rating=Maximum rating level (minimum is 0, the ratings can be from 0 = lowest to this maximum inclusive)
 ### Missing: polls.form.label.optionCount.rating.details=rating only
 polls.form.label.timeline=投票期間
-### Missing: polls.form.label.timeline.dateFormat=(date format: {0})
+polls.form.label.timeline.dateFormat=（日付の形式：{0}）
 ## Tools
 polls.form.tools.delete=[削除]
 polls.form.tools.delete.tooltip=削除
