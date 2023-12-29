@@ -1,1 +1,167 @@
+<?xml version="1.1" encoding="UTF-8"?>
 
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc locale="ko">
+  <web>Polls</web>
+  <name>PollL10n</name>
+  <language>ko</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <parent>Polls.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1270892056000</creationDate>
+  <date>1271503900000</date>
+  <contentUpdateDate>1271503900000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Polls application localization</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content>##
+## Home page
+##
+polls.home.title=투표소
+polls.home.create=설문조사 추가
+polls.index.doc.title=설문조사 이름
+polls.index.type=유형
+polls.index.from=시작
+polls.index.to=종료
+polls.index.doc.creator=출시자:
+polls.index._actions=행위
+##
+## Creation/editing
+##
+polls.create.title=새 설문조사 시작
+## Error messages
+polls.form.error.missingTitle=제목 필드는 필수입니다.
+polls.form.error.missingOptions=최소한 두 가지 옵션을 제공하십시오.
+polls.form.error.missingQuestion=설문조사 질문은 필수입니다.
+polls.form.error.missingVoteType=투표 유형은 필수입니다.
+polls.form.error.missingRatingLevel=최대 평가 수준은 평가 설문조사에 필수이며 0보다 크고 최대 {0}이어야 합니다.
+polls.form.error.missingOpenDate=설문조사 개시 날짜는 필수이며 {0} 형식이어야 합니다.
+polls.form.error.missingCloseDate=설문조사 종료 날짜는 필수이며 {0} 형식이어야 합니다.
+polls.form.error.wrongDateOrder=투표 종료 날짜는 시작 날짜 이후여야 합니다.
+## Section titles
+polls.form.section.general=당신은 무엇을 여론 조사하고 있습니까?
+polls.form.section.options=옵션
+polls.form.section.voteType=투표 유형
+polls.form.section.timeline=타임라인
+polls.form.section.votes=투표
+## Fiels labels
+polls.form.label.space=어디:
+polls.form.label.title=제목
+polls.form.label.allOptions=새 메시지가 추가되었습니다.
+polls.form.label.optionCount.multiple=최대 선택 수
+polls.form.label.optionCount.multiple.details=객관식 및 가중 객관식만
+polls.form.label.optionCount.separator=또는
+polls.form.label.optionCount.rating=삭제 진행 중...
+polls.form.label.optionCount.rating.details=삭제 진행 중...
+polls.form.label.timeline=삭제 진행 중...
+polls.form.label.timeline.dateFormat=삭제 진행 중...
+## Tools
+polls.form.tools.delete=삭제 진행 중...
+polls.form.tools.delete.tooltip=삭제 진행 중...
+polls.form.tools.move=삭제 진행 중...
+polls.form.tools.move.tooltip=삭제 진행 중...
+polls.form.tools.addOption=삭제 진행 중...
+## Form actions
+polls.form.actions.create=삭제 진행 중...
+polls.form.actions.cancel=삭제 진행 중...
+##
+## Viewing/voting
+##
+## Voting instructions
+polls.vote.instructions.single=삭제 진행 중...
+polls.vote.instructions.multiple=삭제 진행 중...
+polls.vote.instructions.weighted=삭제 진행 중...
+polls.vote.instructions.rating=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
+polls.vote.instructions.ranking.noscript=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
+polls.vote.instructions.ranking.script=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
+## Timeline
+polls.vote.timeline.notOpen=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
+polls.vote.timeline.ongoing=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.timeline.closed=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+## Voting form
+polls.vote.label.voted=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.actions.vote=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 물음표(?)
+polls.vote.actions.updateVote=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.actions.cancel=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+## Tools
+polls.vote.tools.moveup=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.tools.moveup.tooltip=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.tools.movedown=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 콜론(:)
+### Missing: polls.vote.tools.movedown.tooltip=Move down
+### Missing: polls.vote.tools.incValue=Increase value by 1
+### Missing: polls.vote.tools.decValue=Decrease value by 1
+## Error messages
+### Missing: polls.vote.warning.unauthorized=You must be logged-in and have proper rights on this document in order to vote.
+### Missing: polls.vote.error.single.noneSelected=Please choose one of the options below.
+### Missing: polls.vote.error.multiple.noneSelected=Please select at least one option.
+### Missing: polls.vote.error.multiple.wrongSelectedNumber=Please choose at least one and at most {0} of the options below.
+### Missing: polls.vote.error.weighted.wrongSelectedNumber=Please assign non-zero weights to at most {0} of the options.
+### Missing: polls.vote.error.weighted.wrongTotalWeight=Please assign weights that sum up to 100. The sum of your current weight assignments is {0}.
+### Missing: polls.vote.error.rating.optionMissing=Please select a rating for each option.
+### Missing: polls.vote.error.rating.ratingOutOfRange=Rating out of range for option {0}.
+### Missing: polls.vote.error.ranking.unknownElement=Invalid order: unknown element {0}.
+### Missing: polls.vote.error.ranking.duplicateElement=Invalid order: duplicate element {0}.
+## Results
+### Missing: polls.vote.results.title.before=
+### Missing: polls.vote.results.title.during=Intermediate results
+### Missing: polls.vote.results.title.after=Results
+### Missing: polls.vote.results.participants={0} participant{0,choice,0#s|1#|1&lt;s}
+### Missing: polls.vote.results.chart.percentage=Percentage
+### Missing: polls.vote.results.chart.voteCount=Number of votes
+### Missing: polls.vote.results.chart.columnsNumberWarning=Only the first {0} columns can be displayed in the chart.
+### Missing: polls.vote.results.table.option=Option
+### Missing: polls.vote.results.table.percentage=Percentage
+### Missing: polls.vote.results.table.percentageVoters=Percentage of voters
+### Missing: polls.vote.results.table.voteCount=Number of votes
+### Missing: polls.vote.results.table.voters=Chosen by
+### Missing: polls.vote.results.table.average=Average
+##
+## Document version log
+##
+### Missing: polls.versionSummary.pollCreated=Poll created
+### Missing: polls.versionSummary.optionAdded=Poll option added
+### Missing: polls.versionSummary.userVoted={0} voted
+##
+## Class translations
+##
+### Missing: Polls.PollClass_type_single=Single choice
+### Missing: Polls.PollClass_type_multiple=Multiple choice
+### Missing: Polls.PollClass_type_weighted=Weighted multiple choice
+### Missing: Polls.PollClass_type_rating=Rating
+### Missing: Polls.PollClass_type_ranking=Ranking
+### Missing: Polls.PollClass_question=Question
+### Missing: Polls.PollClass_optionsPerVoter=Maximum number of options per voter
+### Missing: Polls.PollClass_type=Choice type
+### Missing: Polls.PollClass_from=from
+### Missing: Polls.PollClass_to=to
+</content>
+  </xwikidoc>
