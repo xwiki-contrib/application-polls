@@ -116,52 +116,52 @@ polls.vote.actions.cancel=이 저장되었지만, 일부 새롭게 실패한 검
 polls.vote.tools.moveup=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
 polls.vote.tools.moveup.tooltip=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
 polls.vote.tools.movedown=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 콜론(:)
-### Missing: polls.vote.tools.movedown.tooltip=Move down
-### Missing: polls.vote.tools.incValue=Increase value by 1
-### Missing: polls.vote.tools.decValue=Decrease value by 1
+polls.vote.tools.movedown.tooltip=아래로 이동
+polls.vote.tools.incValue=값을 1씩 늘립니다.
+polls.vote.tools.decValue=값을 1씩 감소
 ## Error messages
-### Missing: polls.vote.warning.unauthorized=You must be logged-in and have proper rights on this document in order to vote.
-### Missing: polls.vote.error.single.noneSelected=Please choose one of the options below.
-### Missing: polls.vote.error.multiple.noneSelected=Please select at least one option.
-### Missing: polls.vote.error.multiple.wrongSelectedNumber=Please choose at least one and at most {0} of the options below.
-### Missing: polls.vote.error.weighted.wrongSelectedNumber=Please assign non-zero weights to at most {0} of the options.
-### Missing: polls.vote.error.weighted.wrongTotalWeight=Please assign weights that sum up to 100. The sum of your current weight assignments is {0}.
-### Missing: polls.vote.error.rating.optionMissing=Please select a rating for each option.
-### Missing: polls.vote.error.rating.ratingOutOfRange=Rating out of range for option {0}.
-### Missing: polls.vote.error.ranking.unknownElement=Invalid order: unknown element {0}.
-### Missing: polls.vote.error.ranking.duplicateElement=Invalid order: duplicate element {0}.
+polls.vote.warning.unauthorized=투표하려면 로그인해야 하며 이 문서에 대한 적절한 권한이 있어야 합니다.
+polls.vote.error.single.noneSelected=아래 옵션 중 하나를 선택해 주세요.
+polls.vote.error.multiple.noneSelected=옵션을 하나 이상 선택하세요.
+polls.vote.error.multiple.wrongSelectedNumber=아래 옵션 중 최소 하나에서 최대 {0}개를 선택하세요.
+polls.vote.error.weighted.wrongSelectedNumber=최대 {0}개의 옵션에 0이 아닌 가중치를 할당하세요.
+polls.vote.error.weighted.wrongTotalWeight=합계가 100이 되는 가중치를 할당하십시오. 현재 가중치 할당의 합계는 {0}입니다.
+polls.vote.error.rating.optionMissing=각 옵션에 대한 등급을 선택해 주세요.
+polls.vote.error.rating.ratingOutOfRange=옵션 {0}의 등급이 범위를 벗어났습니다.
+polls.vote.error.ranking.unknownElement=잘못된 순서: 알 수 없는 요소 {0}.
+polls.vote.error.ranking.duplicateElement=잘못된 순서: 요소 {0}이(가) 중복되었습니다.
 ## Results
 ### Missing: polls.vote.results.title.before=
-### Missing: polls.vote.results.title.during=Intermediate results
-### Missing: polls.vote.results.title.after=Results
-### Missing: polls.vote.results.participants={0} participant{0,choice,0#s|1#|1&lt;s}
-### Missing: polls.vote.results.chart.percentage=Percentage
-### Missing: polls.vote.results.chart.voteCount=Number of votes
-### Missing: polls.vote.results.chart.columnsNumberWarning=Only the first {0} columns can be displayed in the chart.
-### Missing: polls.vote.results.table.option=Option
-### Missing: polls.vote.results.table.percentage=Percentage
-### Missing: polls.vote.results.table.percentageVoters=Percentage of voters
-### Missing: polls.vote.results.table.voteCount=Number of votes
-### Missing: polls.vote.results.table.voters=Chosen by
-### Missing: polls.vote.results.table.average=Average
+polls.vote.results.title.during=중간 결과
+polls.vote.results.title.after=결과
+polls.vote.results.participants={0} 참가자{0,choice,0#s|1#|1&lt;s}
+polls.vote.results.chart.percentage=백분율
+polls.vote.results.chart.voteCount=투표수
+polls.vote.results.chart.columnsNumberWarning=처음 {0}개의 열만 차트에 표시될 수 있습니다.
+polls.vote.results.table.option=옵션
+polls.vote.results.table.percentage=백분율
+polls.vote.results.table.percentageVoters=유권자 비율
+polls.vote.results.table.voteCount=투표수
+polls.vote.results.table.voters=선택한 사람
+polls.vote.results.table.average=평균
 ##
 ## Document version log
 ##
-### Missing: polls.versionSummary.pollCreated=Poll created
-### Missing: polls.versionSummary.optionAdded=Poll option added
-### Missing: polls.versionSummary.userVoted={0} voted
+polls.versionSummary.pollCreated=설문조사가 생성되었습니다.
+polls.versionSummary.optionAdded=설문조사 옵션이 추가되었습니다.
+polls.versionSummary.userVoted={0}님이 투표했습니다
 ##
 ## Class translations
 ##
-### Missing: Polls.PollClass_type_single=Single choice
-### Missing: Polls.PollClass_type_multiple=Multiple choice
-### Missing: Polls.PollClass_type_weighted=Weighted multiple choice
-### Missing: Polls.PollClass_type_rating=Rating
-### Missing: Polls.PollClass_type_ranking=Ranking
-### Missing: Polls.PollClass_question=Question
-### Missing: Polls.PollClass_optionsPerVoter=Maximum number of options per voter
-### Missing: Polls.PollClass_type=Choice type
-### Missing: Polls.PollClass_from=from
-### Missing: Polls.PollClass_to=to
+Polls.PollClass_type_single=단일 선택
+Polls.PollClass_type_multiple=다중 선택
+Polls.PollClass_type_weighted=가중 객관식
+Polls.PollClass_type_rating=평가
+Polls.PollClass_type_ranking=순위
+Polls.PollClass_question=질문
+Polls.PollClass_optionsPerVoter=유권자당 최대 옵션 수
+Polls.PollClass_type=선택 유형
+Polls.PollClass_from=~에서
+Polls.PollClass_to=에게
 </content>
   </xwikidoc>
