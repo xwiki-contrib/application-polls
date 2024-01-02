@@ -52,7 +52,7 @@ polls.index.doc.title=설문조사 이름
 polls.index.type=유형
 polls.index.from=시작
 polls.index.to=종료
-polls.index.doc.creator=출시자:
+polls.index.doc.creator=출시자
 polls.index._actions=행위
 ##
 ## Creation/editing
@@ -76,48 +76,48 @@ polls.form.section.votes=투표
 ## Fiels labels
 polls.form.label.space=어디:
 polls.form.label.title=제목
-polls.form.label.allOptions=새 메시지가 추가되었습니다.
+polls.form.label.allOptions=새 메시지가 추가되었습니다
 polls.form.label.optionCount.multiple=최대 선택 수
 polls.form.label.optionCount.multiple.details=객관식 및 가중 객관식만
 polls.form.label.optionCount.separator=또는
-polls.form.label.optionCount.rating=삭제 진행 중...
-polls.form.label.optionCount.rating.details=삭제 진행 중...
-polls.form.label.timeline=삭제 진행 중...
-polls.form.label.timeline.dateFormat=삭제 진행 중...
+polls.form.label.optionCount.rating=최대 등급 수준(최소값은 0이며 등급은 0 = 최저값부터 최대값까지 가능함)
+polls.form.label.optionCount.rating.details=평가만
+polls.form.label.timeline=폴링 기간
+polls.form.label.timeline.dateFormat=(날짜 형식: {0})
 ## Tools
-polls.form.tools.delete=삭제 진행 중...
-polls.form.tools.delete.tooltip=삭제 진행 중...
-polls.form.tools.move=삭제 진행 중...
-polls.form.tools.move.tooltip=삭제 진행 중...
-polls.form.tools.addOption=삭제 진행 중...
+polls.form.tools.delete=[삭제]
+polls.form.tools.delete.tooltip=삭제
+polls.form.tools.move=[이동하다]
+polls.form.tools.move.tooltip=드래그 앤 드롭하여 순서를 변경하세요
+polls.form.tools.addOption=다른 옵션 추가
 ## Form actions
-polls.form.actions.create=삭제 진행 중...
-polls.form.actions.cancel=삭제 진행 중...
+polls.form.actions.create=설문조사 만들기
+polls.form.actions.cancel=취소
 ##
 ## Viewing/voting
 ##
 ## Voting instructions
-polls.vote.instructions.single=삭제 진행 중...
-polls.vote.instructions.multiple=삭제 진행 중...
-polls.vote.instructions.weighted=삭제 진행 중...
-polls.vote.instructions.rating=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
-polls.vote.instructions.ranking.noscript=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
-polls.vote.instructions.ranking.script=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
+polls.vote.instructions.single=아래 옵션 중 하나를 선택하세요.
+polls.vote.instructions.multiple=아래 옵션 중 최소 1개에서 최대 {0}개를 선택하세요.
+polls.vote.instructions.weighted=아래 옵션 중 최소 1개에서 최대 {0}개에 0이 아닌 백분율을 할당합니다. 합계는 100%여야 합니다.
+polls.vote.instructions.rating=각 옵션을 0(가장 선호하지 않음)부터 {0}(가장 선호함)까지 평가하세요.
+polls.vote.instructions.ranking.noscript="위로 이동/아래로 이동" 도구를 사용하여 원하는 대로 항목의 순서를 변경하세요(높을수록 좋음).
+polls.vote.instructions.ranking.script=항목을 드래그 앤 드롭하여 원하는 대로 순서를 변경하세요(높을수록 좋음).
 ## Timeline
-polls.vote.timeline.notOpen=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.), 일치하지 않는 물음표(?)
-polls.vote.timeline.ongoing=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
-polls.vote.timeline.closed=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.timeline.notOpen=이 설문조사는 아직 공개되지 않았습니다. {0}부터 {1}까지 사용할 수 있습니다.
+polls.vote.timeline.ongoing=이 설문조사는 {0}부터 {1}까지 진행됩니다.
+polls.vote.timeline.closed=이 설문조사는 현재 종료되었습니다.
 ## Voting form
-polls.vote.label.voted=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
-polls.vote.actions.vote=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 물음표(?)
-polls.vote.actions.updateVote=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
-polls.vote.actions.cancel=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
+polls.vote.label.voted=귀하는 다음과 같이 답변했습니다:
+polls.vote.actions.vote=제출하다
+polls.vote.actions.updateVote=답변 업데이트
+polls.vote.actions.cancel=설문조사 홈페이지로 이동
 ## Tools
-polls.vote.tools.moveup=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
-polls.vote.tools.moveup.tooltip=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 마침표(.)
-polls.vote.tools.movedown=이 저장되었지만, 일부 새롭게 실패한 검사가 있습니다: 일치하지 않는 콜론(:)
+polls.vote.tools.moveup=[이동]
+polls.vote.tools.moveup.tooltip=이동
+polls.vote.tools.movedown=[아래로 이동]
 polls.vote.tools.movedown.tooltip=아래로 이동
-polls.vote.tools.incValue=값을 1씩 늘립니다.
+polls.vote.tools.incValue=값을 1씩 늘립니다
 polls.vote.tools.decValue=값을 1씩 감소
 ## Error messages
 polls.vote.warning.unauthorized=투표하려면 로그인해야 하며 이 문서에 대한 적절한 권한이 있어야 합니다.
@@ -147,8 +147,8 @@ polls.vote.results.table.average=평균
 ##
 ## Document version log
 ##
-polls.versionSummary.pollCreated=설문조사가 생성되었습니다.
-polls.versionSummary.optionAdded=설문조사 옵션이 추가되었습니다.
+polls.versionSummary.pollCreated=설문조사가 생성되었습니다
+polls.versionSummary.optionAdded=설문조사 옵션이 추가되었습니다
 polls.versionSummary.userVoted={0}님이 투표했습니다
 ##
 ## Class translations
