@@ -1,1 +1,167 @@
+<?xml version="1.1" encoding="UTF-8"?>
 
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc locale="pt-BR">
+  <web>Polls</web>
+  <name>PollL10n</name>
+  <language>pt-BR</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <parent>Polls.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1270892056000</creationDate>
+  <date>1271503900000</date>
+  <contentUpdateDate>1271503900000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Polls application localization</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content>##
+## Home page
+##
+polls.home.title=Enquetes
+polls.home.create=Adicionar enquete
+polls.index.doc.title=Nome da enquete
+polls.index.type=Tipo
+polls.index.from=Começa
+polls.index.to=Termina
+polls.index.doc.creator=Lançado por
+polls.index._actions=Ações
+##
+## Creation/editing
+##
+polls.create.title=Lançar uma nova enquete
+## Error messages
+polls.form.error.missingTitle=O campo título é obrigatório.
+polls.form.error.missingOptions=Forneça pelo menos duas opções.
+polls.form.error.missingQuestion=A pergunta da enquete é obrigatória.
+polls.form.error.missingVoteType=O tipo de voto é obrigatório.
+polls.form.error.missingRatingLevel=O nível máximo de classificação é obrigatório para pesquisas de classificação e deve ser maior que 0 e no máximo {0}.
+polls.form.error.missingOpenDate=A data de abertura da votação é obrigatória e deve ter o formato {0}.
+polls.form.error.missingCloseDate=A data de encerramento da votação é obrigatória e deve ter o formato {0}.
+polls.form.error.wrongDateOrder=A data de encerramento da votação deverá ser posterior à data de abertura.
+## Section titles
+polls.form.section.general=O que você está pesquisando?
+polls.form.section.options=Opções
+polls.form.section.voteType=Tipo de voto
+polls.form.section.timeline=Linha do tempo
+polls.form.section.votes=Votos
+## Fiels labels
+polls.form.label.space=Onde:
+polls.form.label.title=Título
+polls.form.label.allOptions=Insira todas as opções, uma em cada linha
+polls.form.label.optionCount.multiple=Número máximo de escolhas
+polls.form.label.optionCount.multiple.details=múltipla escolha e múltipla escolha ponderada apenas
+polls.form.label.optionCount.separator=ou
+polls.form.label.optionCount.rating=Nível máximo de classificação (o mínimo é 0, as classificações podem ser de 0 = mais baixo até este máximo inclusive)
+polls.form.label.optionCount.rating.details=apenas classificação
+polls.form.label.timeline=Período de votação
+polls.form.label.timeline.dateFormat=(formato de data: {0})
+## Tools
+polls.form.tools.delete=[excluir]
+polls.form.tools.delete.tooltip=Excluir
+polls.form.tools.move=[mover]
+polls.form.tools.move.tooltip=Arraste e solte para alterar a ordem
+polls.form.tools.addOption=Adicione outra opção
+## Form actions
+polls.form.actions.create=Criar enquete
+polls.form.actions.cancel=Cancelar
+##
+## Viewing/voting
+##
+## Voting instructions
+polls.vote.instructions.single=Escolha uma das opções abaixo.
+polls.vote.instructions.multiple=Escolha pelo menos 1 e no máximo {0} das opções abaixo.
+polls.vote.instructions.weighted=Atribua porcentagens diferentes de zero a pelo menos 1 e no máximo {0} das opções abaixo. A soma deve ser 100%.
+polls.vote.instructions.rating=Classifique de 0 (menos favorável) a {0} (mais favorável) cada uma das opções.
+polls.vote.instructions.ranking.noscript=Use as ferramentas "mover para cima/para baixo" para reordenar os itens de acordo com sua preferência (quanto maior, melhor).
+polls.vote.instructions.ranking.script=Arraste e solte os itens para reordená-los de acordo com sua preferência (quanto maior, melhor).
+## Timeline
+polls.vote.timeline.notOpen=Esta enquete ainda não está aberta. Estará disponível de {0} a {1}.
+polls.vote.timeline.ongoing=Esta enquete está aberta de {0} a {1}.
+polls.vote.timeline.closed=esta enquete está encerrada.
+## Voting form
+polls.vote.label.voted=Você respondeu:
+polls.vote.actions.vote=Enviar
+polls.vote.actions.updateVote=Atualizar resposta
+polls.vote.actions.cancel=Vá para a página inicial das enquetes
+## Tools
+polls.vote.tools.moveup=[subir]
+polls.vote.tools.moveup.tooltip=Subir
+polls.vote.tools.movedown=[mover para baixo]
+polls.vote.tools.movedown.tooltip=Mover para baixo
+polls.vote.tools.incValue=Aumentar o valor em 1
+polls.vote.tools.decValue=Diminuir valor em 1
+## Error messages
+polls.vote.warning.unauthorized=Você deve estar logado e ter os direitos apropriados neste documento para poder votar.
+polls.vote.error.single.noneSelected=Escolha uma das opções abaixo.
+polls.vote.error.multiple.noneSelected=Selecione pelo menos uma opção.
+polls.vote.error.multiple.wrongSelectedNumber=Escolha pelo menos uma e no máximo {0} das opções abaixo.
+polls.vote.error.weighted.wrongSelectedNumber=Atribua pesos diferentes de zero a no máximo {0} das opções.
+polls.vote.error.weighted.wrongTotalWeight=Atribua pesos que somam 100. A soma de suas atribuições de peso atuais é {0}.
+polls.vote.error.rating.optionMissing=Selecione uma classificação para cada opção.
+polls.vote.error.rating.ratingOutOfRange=Classificação fora do intervalo para a opção {0}.
+polls.vote.error.ranking.unknownElement=Ordem inválida: elemento desconhecido {0}.
+polls.vote.error.ranking.duplicateElement=Ordem inválida: elemento duplicado {0}.
+## Results
+### Missing: polls.vote.results.title.before=
+polls.vote.results.title.during=Resultados intermediários
+polls.vote.results.title.after=Resultados
+polls.vote.results.participants={0} participante{0,escolha,0#s|1#|1&lt;s}
+polls.vote.results.chart.percentage=Percentagem
+polls.vote.results.chart.voteCount=Número de votos
+polls.vote.results.chart.columnsNumberWarning=Somente as primeiras {0} colunas podem ser exibidas no gráfico.
+polls.vote.results.table.option=Opção
+polls.vote.results.table.percentage=Percentagem
+polls.vote.results.table.percentageVoters=Porcentagem de eleitores
+polls.vote.results.table.voteCount=Número de votos
+polls.vote.results.table.voters=Escolhido por
+polls.vote.results.table.average=Média
+##
+## Document version log
+##
+polls.versionSummary.pollCreated=Enquete criada
+polls.versionSummary.optionAdded=Opção de enquete adicionada
+polls.versionSummary.userVoted={0} votou
+##
+## Class translations
+##
+Polls.PollClass_type_single=Escolha única
+Polls.PollClass_type_multiple=Múltipla escolha
+Polls.PollClass_type_weighted=Escolha múltipla ponderada
+Polls.PollClass_type_rating=Avaliação
+Polls.PollClass_type_ranking=Classificação
+Polls.PollClass_question=Pergunta
+Polls.PollClass_optionsPerVoter=Número máximo de opções por eleitor
+Polls.PollClass_type=Tipo de escolha
+Polls.PollClass_from=de
+Polls.PollClass_to=para
+</content>
+  </xwikidoc>
