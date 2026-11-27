@@ -94,14 +94,14 @@ polls.form.actions.cancel=取消
 ##
 ## Voting instructions
 polls.vote.instructions.single=选择下列任意一个选项。
-polls.vote.instructions.multiple=从以下选项中选择至少1个，最多｛0｝个。
-polls.vote.instructions.weighted=将非零的百分比按以下选项分配，至少1个，最多｛0｝个。总和必须为100%。
-polls.vote.instructions.rating=对每个选项进行评分，从0（最不利）到｛0｝（最有利）。
+polls.vote.instructions.multiple=从以下选项中选择至少1个，最多{0}个。
+polls.vote.instructions.weighted=将非零的百分比按以下选项分配，至少1个，最多{0}个。总和必须为100%。
+polls.vote.instructions.rating=对每个选项进行评分，从0（最不利）到{0}（最有利）。
 polls.vote.instructions.ranking.noscript=使用“上移/下移”工具根据您的喜好重新排序项目（上移的代表等级更高）。
 polls.vote.instructions.ranking.script=拖放项目以根据您的喜好重新排序（位置越靠上的代表等级更高）。
 ## Timeline
-polls.vote.timeline.notOpen=此投票尚未开放。它将从｛0｝到｛1｝可用。
-polls.vote.timeline.ongoing=此投票的开放时间为｛0｝到｛1｝。
+polls.vote.timeline.notOpen=此投票尚未开放。它将从{0}到{1}可用。
+polls.vote.timeline.ongoing=此投票的开放时间为{0}到{1}。
 polls.vote.timeline.closed=本轮投票现已结束。
 ## Voting form
 polls.vote.label.voted=你的回答：
@@ -119,21 +119,21 @@ polls.vote.tools.decValue=将值减小1
 polls.vote.warning.unauthorized=您必须登录并对该文档拥有适当的权限才能投票。
 polls.vote.error.single.noneSelected=请选择以下选项之一。
 polls.vote.error.multiple.noneSelected=请至少选择一个选项。
-polls.vote.error.multiple.wrongSelectedNumber=请从以下选项中至少选择1个，最多选择｛0｝个。
-polls.vote.error.weighted.wrongSelectedNumber=请为最多｛0｝个选项分配非零权重。
-polls.vote.error.weighted.wrongTotalWeight=请指定总计为100的权重。您当前的权重分配总和为｛0｝。
+polls.vote.error.multiple.wrongSelectedNumber=请从以下选项中至少选择1个，最多选择{0}个。
+polls.vote.error.weighted.wrongSelectedNumber=请为最多{0}个选项分配非零权重。
+polls.vote.error.weighted.wrongTotalWeight=请指定总计为100的权重。您当前的权重分配总和为{0}。
 polls.vote.error.rating.optionMissing=请为每个选项选择一个评分。
-polls.vote.error.rating.ratingOutOfRange=选项｛0｝的评分超出范围。
-polls.vote.error.ranking.unknownElement=无效顺序：未知元素｛0｝。
-polls.vote.error.ranking.duplicateElement=无效顺序：重复元素｛0｝。
+polls.vote.error.rating.ratingOutOfRange=选项{0}的评分超出范围。
+polls.vote.error.ranking.unknownElement=无效顺序：未知元素{0}。
+polls.vote.error.ranking.duplicateElement=无效顺序：重复元素{0}。
 ## Results
-polls.vote.results.title.before=投票结果标题显示的默认占位符文本。
+### Missing: polls.vote.results.title.before=
 polls.vote.results.title.during=投票中期结果
 polls.vote.results.title.after=投票结果
-polls.vote.results.participants=｛0｝参与者 {0,选择,0#s|1#|1&lt;s}
+polls.vote.results.participants={0} 参与者
 polls.vote.results.chart.percentage=百分比
 ### Missing: polls.vote.results.chart.voteCount=Number of votes
-polls.vote.results.chart.columnsNumberWarning=图表中只能显示前｛0｝列。
+polls.vote.results.chart.columnsNumberWarning=图表中只能显示前{0}列。
 ### Missing: polls.vote.results.table.option=Option
 polls.vote.results.table.percentage=百分比
 polls.vote.results.table.percentageVoters=投票者占比

@@ -131,7 +131,7 @@ polls.vote.error.rating.ratingOutOfRange=Bedømmelsen ligger uden for intervalle
 polls.vote.error.ranking.unknownElement=Ugyldig rækkefølge: ukendt element {0}.
 polls.vote.error.ranking.duplicateElement=Ugyldig rækkefølge: element {0} optræder flere gange.
 ## Results
-polls.vote.results.title.before=Standardpladsholdertekst til titlen på afstemningens resultater.
+polls.vote.results.title.before=
 polls.vote.results.title.during=Foreløbige resultater
 polls.vote.results.title.after=Resultater
 polls.vote.results.participants={0} deltager{0,choice,0#e|1#|1&lt;e}

@@ -131,7 +131,7 @@ polls.vote.error.rating.ratingOutOfRange=Rating out of range for option {0}.
 polls.vote.error.ranking.unknownElement=Invalid order: unknown element {0}.
 polls.vote.error.ranking.duplicateElement=Invalid order: duplicate element {0}.
 ## Results
-polls.vote.results.title.before=Default placeholder text for the poll results title.
+polls.vote.results.title.before=
 polls.vote.results.title.during=Intermediate results
 polls.vote.results.title.after=Results
 polls.vote.results.participants={0} participant{0,choice,0#s|1#|1&lt;s}
